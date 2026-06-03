@@ -85,7 +85,7 @@ header {
 
 .header-cart-link {
   line-height: 0;
-  display: inline-block;
+  display: flex;
   position: relative;
 }
 

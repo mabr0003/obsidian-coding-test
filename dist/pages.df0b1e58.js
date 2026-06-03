@@ -3,8 +3,8 @@
     const cartCountBadge = document.getElementById('cart-count');
     const cartLink = document.getElementById('header-cart-link');
     const quantityInput = document.querySelector('.quantity input[name="quantity"]');
-    const decreaseBtn = document.querySelector('.quantity button[aria-label="Decrease quantity"]');
-    const increaseBtn = document.querySelector('.quantity button[aria-label="Increase quantity"]');
+    const decreaseBtn = document.querySelector('.quantity-decrease');
+    const increaseBtn = document.querySelector('.quantity-increase');
     if (!addToCartBtn || !cartCountBadge) return;
     let itemCount = 0;
     function readQuantity() {

@@ -61,7 +61,7 @@ header {
 
 .header-cart-link {
   position: relative;
-  display: inline-block;
+  display: flex;
   line-height: 0;
 }
 
