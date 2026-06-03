@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-coding-test",
+  "version": "1.0.0",
+  "private": true,
+  "source": "src/pages/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  }
+}

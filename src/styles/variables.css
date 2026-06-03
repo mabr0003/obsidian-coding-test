@@ -1,0 +1,36 @@
+/*
+  Design tokens — copy values from Figma (fill, text styles, spacing).
+  Use these across main.css so you only change the design in one place.
+*/
+
+:root {
+  /* Colors */
+  --color-text: #4D4D4D;
+  --color-text-faded: #4d4d4d82;
+  --color-background: #FFFFFF;
+  --color-background-secondary: #F6F6F5;
+  --color-border: #9F938B;
+  --color-accent: #9F938B;
+  --color-cta: #BFABAB;
+  --color-sale: #D35D5D;
+
+
+  /* Typography */
+  --font-family-base: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-family-secondary: 'lato', system-ui, -apple-system, sans-serif;
+  --font-size-base: 1rem;
+  --font-size-h1: 1.75rem;
+  --font-size-h2: 0.875rem;
+  --font-size-p: 0.875rem;
+  --font-size-cta: 1.125rem;
+  --line-height-base: 1.5;
+
+  /* Layout */
+  --container-max: 1100px;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  --breakpoint-md: 768px;
+}

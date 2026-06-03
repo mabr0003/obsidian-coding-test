@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <button class="header-menu">
+        <img src="../assets/icons/burger-menu.svg" alt="open menu">
+      </button>
+
+      <a href="/" class="header-logo">
+        <img class="header-logo-mobile" src="../assets/images/logo-mobile.svg" alt="Act+Acre logo">
+        <img class="header-logo-desktop" src="../assets/images/logo-desktop.png" alt="Act+Acre logo">
+      </a>
+
+      <div class="header-nav-panel" id="header-nav-panel">
+        <button type="button" class="header-nav-close">
+          <img src="../assets/icons/close.svg" alt="close">
+        </button>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Tutorial</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="header-icons">
+        <ul>
+          <li class="header-icons-search"><a href="#"><img src="../assets/icons/search.svg" alt="Search"></a></li>
+          <li class="header-icons-account"><a href="#"><img src="../assets/icons/user.svg" alt="Account"></a></li>
+          <li class="header-icons-cart">
+            <a href="#" class="header-cart-link" id="header-cart-link">
+              <img src="../assets/icons/cart.svg" alt="">
+              <span class="header-cart-count" id="cart-count"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="header-nav-backdrop" hidden></div>
+
+    <main>
+      <article class="product">
+      <nav class="breadcrumb">
+        <a href="#" class="breadcrumb-back">
+          <img src="../assets/icons/back-arrow.svg" alt="">
+        </a>
+        <ol class="breadcrumb-list">
+          <li><a href="#">All products</a></li>
+          <li><a href="#">Haircare</a></li>
+          <li>Restorative hair mask</li>
+        </ol>
+      </nav>
+          <img src="../assets/images/product-hero.png" alt="Product image">
+        <div class="product-info">
+          <div class="product-title">
+          <h1>RESTORATIVE HAIR MASK</h1>
+          <h2>Nuturishment in a bottle</h2>
+          </div>
+          <div class="product-description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor commodo ullamcorper a lacus vestibulum. Luctus accumsan tortor posuere ac ut.
+          </p>
+          <div class="product-badges">
+            <div>
+              <img src="../assets/icons/organic.svg" alt="organic icon">
+              <p>100% Organic</p>
+            </div>
+            <div>
+              <img src="../assets/icons/organic.svg" alt="organic icon">
+              <p>100% Organic</p>
+            </div>
+            <div>
+              <img src="../assets/icons/organic.svg" alt="organic icon">
+              <p>100% Organic</p>
+            </div>
+            <div>
+              <img src="../assets/icons/organic.svg" alt="organic icon">
+              <p>100% Organic</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-actions">
+          <fieldset>
+            <label>
+              <input type="radio" name="purchase-option" value="once" checked>
+              Buy Once | $38
+            </label>
+            <label>
+              <input type="radio" name="purchase-option" value="subscribe">
+              Subscribe (SAVE 20%) | <span>$30</span>
+            </label>
+          </fieldset>
+          <div class="product-actions-buttons">
+            <div class="quantity">
+              <button type="button">-</button>
+              <input type="number" name="quantity" value="1" min="1">
+              <button type="button">+</button>
+            </div>
+            <button class="cta" type="button" id="add-to-cart">Add to cart</button>
+          </div>
+        </div>
+        </div>
+
+        <section class="product-accordion">
+          <details>
+            <summary>Ingredients</summary>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+          <details>
+            <summary>Ingredients</summary>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+          <details>
+            <summary>Ingredients</summary>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </section>
+      </article>
+      <section class="products-related">
+        <h2>You may also like</h2>
+        <div class="products-related-carousel">
+          <button
+            type="button"
+            class="carousel-btn carousel-btn--prev"
+          >
+            <img src="../assets/icons/carousel-arrow-left.svg" alt="" width="29" height="35">
+          </button>
+          <div class="products-related-carousel-viewport">
+          <ul>
+            <li>
+              <article class="product-card">
+                <a href="#">
+                  <img src="../assets/images/product-related.png" alt="Hand Pomade">
+                  <h3>Hand Pomade / Pommade Mains</h3>
+                  <p class="product-card-subtitle">Nourishment for your hands</p>
+                  <p class="product-card-price">159,00 KR</p>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="product-card">
+                <a href="#">
+                  <img src="../assets/images/product-related.png" alt="Hand Pomade">
+                  <h3>Hand Pomade / Pommade Mains</h3>
+                  <h4 class="product-card-subtitle">Nourishment for your hands</h4>
+                  <p class="product-card-price">159,00 KR</p>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="product-card">
+                <a href="#">
+                  <img src="../assets/images/product-related.png" alt="Hand Pomade">
+                  <h3>Hand Pomade / Pommade Mains</h3>
+                  <h4 class="product-card-subtitle">Nourishment for your hands</h4>
+                  <p class="product-card-price">159,00 KR</p>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="product-card">
+                <a href="#">
+                  <img src="../assets/images/product-related.png" alt="Hand Pomade">
+                  <h3>Hand Pomade / Pommade Mains</h3>
+                  <h4 class="product-card-subtitle">Nourishment for your hands</h4>
+                  <p class="product-card-price">159,00 KR</p>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="product-card">
+                <a href="#">
+                  <img src="../assets/images/product-related.png" alt="Hand Pomade">
+                  <h3>Hand Pomade / Pommade Mains</h3>
+                  <h4 class="product-card-subtitle">Nourishment for your hands</h4>
+                  <p class="product-card-price">159,00 KR</p>
+                </a>
+              </article>
+            </li>
+          </ul>
+          </div>
+          <button
+            type="button"
+            class="carousel-btn carousel-btn--next"
+          >
+            <img src="../assets/icons/carousel-arrow-right.svg" alt="" width="29" height="35">
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Footer</p>
+      </div>
+    </footer>
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/cart.js"></script>
+    <script src="../scripts/carousel.js"></script>
+  </body>
+</html>
